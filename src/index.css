@@ -4,7 +4,7 @@
 
 body {
     font-family: 'LivesportFinderLatin', 'Adjusted Arial Fallback', Arial, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     color: #00141e;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .font-size-13 {
-    font-size: 13px !important;
+    font-size: 12px !important;
 }
 
 .customAccordion .MuiPaper-root {
@@ -50,4 +50,13 @@ body {
 
 .py-2imp {
     padding: 4px 0 !important;
+}
+
+.h-12px svg {
+    height: 12px !important;
+}
+
+.icon-picker {
+    opacity: 0.8 !important;
+    height: 15px !important;
 }

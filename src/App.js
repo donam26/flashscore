@@ -4,7 +4,7 @@ import Container from './components/Container';
 
 export default function App() {
   return (
-    <div className="grid grid-cols-8 w-full bg-[#eee] h-screen">
+    <div className="grid grid-cols-12 w-full bg-[#eee] ">
       <div className="col-span-1 bg-[#eee]">
       </div>
       <div className="col-span-1 bg-[#eee]">
