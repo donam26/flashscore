@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'LivesportFinderLatin', 'Adjusted Arial Fallback', Arial, sans-serif;
+    font-size: 13px;
+    color: #00141e;
+}
+
+.icon {
+    height: 15px !important;
+    width: 14px !important;
+}
+
+.letter {
+    letter-spacing: .4px;
+}
+
+.icon {
+    height: 15px !important;
+    width: 14px !important;
+}
+
+.tab {
+    font-size: 12px;
+    letter-spacing: .4px;
+    line-height: 12px;
+    white-space: nowrap;
+}
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.customAccordion .MuiPaper-root {
+    box-shadow: none !important;
+}
+
+.Mui-expanded {
+    margin: 0 !important;
+    min-height: 0px !important;
+    border-radius: 8px !important;
+    padding-left: 0px !important;
+}
