@@ -56,8 +56,8 @@ const SideBar = () => {
         </div>
 
         <div className="mb-4">
-          <div className="bg-red-500 text-center p-4">
-            <img src="https://images-products.s3.us-east-1.amazonaws.com/dowload_fc24a563fc.jpg" alt="Quảng cáo" className="mx-auto my-2" />
+          <div>
+            <img src="https://images-products.s3.us-east-1.amazonaws.com/dowload_fc24a563fc.jpg" style={{width: "90%"}} alt="Quảng cáo" className="mx-auto my-2" />
           </div>
           <p className="text-center text-sm text-gray-500 mt-2">Quảng cáo</p>
         </div>

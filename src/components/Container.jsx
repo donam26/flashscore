@@ -62,29 +62,34 @@ const Container = () => {
                   {league.matches.map((match, matchIndex) => (
                     <div
                       key={matchIndex}
-                      className="flex items-center justify-between py-2"
+                      className="flex items-center justify-between py-2 py-2imp border-b"
                     >
-                      <div className="flex items-center space-x-3">
+                      <div className="flex items-center">
                         <IconButton size="small">
-                          <StarBorderIcon className="text-gray-500" />
+                          <StarBorderIcon className="text-gray-500 mr-4" />
                         </IconButton>
-                        <Typography variant="body2" className="text-gray-500">
+                        <span className="text-gray-500 font-size-13  mr-4">
                           {match.time}
-                        </Typography>
-                        <Typography variant="body1" className="font-medium">
-                          {match.team1}
-                        </Typography>
-                        <Typography variant="body2" className="text-gray-500">
-                          vs
-                        </Typography>
-                        <Typography variant="body1" className="font-medium">
-                          {match.team2}
-                        </Typography>
+                        </span>
+                        <div className='flex flex-col gap-y-1'>
+                          <div className='flex'>
+                            <img className='w-[14px] h-[14px]' src="https://static.flashscore.com/res/image/data/4xQjb4kC-OKa9P8WR.png" alt="" />
+                            <span variant="body1" className="font-medium font-size-13">
+                              {match.team1}
+                            </span>
+                          </div>
+                          <div className='flex'>
+                            <img className='w-[14px] h-[14px]' src="https://static.flashscore.com/res/image/data/EVoO06R0-joUWHZ1t.png" alt="" />
+                            <span variant="body1" className="font-medium font-size-13">
+                              {match.team2}
+                            </span>
+                          </div>
+                        </div>
                       </div>
                       <div className="flex items-center space-x-3">
-                        <Typography variant="body2" className="font-bold">
+                        <span variant="body2" className="font-bold font-size-13">
                           {match.score}
-                        </Typography>
+                        </span>
                         {match.hasTv && (
                           <TvIcon className="text-gray-500" />
                         )}

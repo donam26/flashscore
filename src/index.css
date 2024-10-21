@@ -30,7 +30,7 @@ body {
 }
 
 .font-size-13 {
-    font-size: 13px;
+    font-size: 13px !important;
 }
 
 .customAccordion .MuiPaper-root {
@@ -42,4 +42,12 @@ body {
     min-height: 0px !important;
     border-radius: 8px !important;
     padding-left: 0px !important;
+}
+
+.MuiAccordion-region div {
+    padding: 0;
+}
+
+.py-2imp {
+    padding: 4px 0 !important;
 }

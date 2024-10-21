@@ -13,7 +13,7 @@ export default function App() {
       <div className="col-span-4 p-4 mt-5 bg-white rounded">
          <Container />
       </div>
-      <div className="col-span-2 bg-slate-500 bg-[#eee]">
+      <div className="col-span-2 bg-[#eee]">
       </div>
     </div>
   );
