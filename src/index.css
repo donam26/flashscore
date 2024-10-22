@@ -60,3 +60,9 @@ body {
     opacity: 0.8 !important;
     height: 15px !important;
 }
+
+@media (min-width: 1120px) {
+    .sidebar-custom {
+      grid-column: span 1 / span 1;
+    }
+  }

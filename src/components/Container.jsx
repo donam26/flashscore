@@ -379,7 +379,7 @@ const Container = () => {
 
   return (
     <>
-      <div className="flex space-x-2 mb-4 tab">
+      <div className="flex space-x-2 mb-4 tab w-full">
         <button className="bg-red-500 text-white px-2 py-2 rounded-lg tab letter font-bold hover:bg-[#c8cdcd] ">
           TẤT CẢ
         </button>
@@ -397,7 +397,7 @@ const Container = () => {
         </button>
         <CustomDatePicker />
       </div>
-      <div className="">
+      <div className="w-full">
         {leagues.map((league, index) => (
           <div key={index} className="mb-4 customAccordion">
             <Accordion defaultExpanded>
